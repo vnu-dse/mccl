@@ -1,2 +1,2 @@
 # mccl
-Implements MCCL as a module in jDomainApp
+Implements MCCL in jDomainApp
