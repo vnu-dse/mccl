@@ -1,2 +1,2 @@
-# mccl
-Implements MCCL in jDomainApp
+# Module Class Configuration Language (MCCL)
+An implementation in jDomainApp
