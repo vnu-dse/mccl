@@ -1,0 +1,11 @@
+1. MCCGen:
+==============
+java -DrootSrcPath=/home/dmle/projects/domainapp/modules/mccl/src.examples -cp lib/domainapp.jar:lib/javaparser-core-3.2.5.jar:lib/mccl.jar domainapp.modules.mccl.MCCGenTool  vn.com.courseman.modulesgen.student.model.Student
+
+OnAddDomainFields:
+==================
+java -DrootSrcPath=/home/dmle/projects/domainapp/modules/mccl/src.examples -cp lib/domainapp.jar:lib/javaparser-core-3.2.5.jar:lib/mccl.jar domainapp.modules.mccl.MCCUpdateTool add  vn.com.courseman.modulesupdate.student.model.Student "test1,test2"
+
+OnUpdateDomainFields:
+=====================
+java -DrootSrcPath=/home/dmle/projects/domainapp/modules/mccl/src.examples -cp lib/domainapp.jar:lib/javaparser-core-3.2.5.jar:lib/mccl.jar domainapp.modules.mccl.MCCUpdateTool update vn.com.courseman.modulesupdate.student.model.Student "(testA,test1);(testB,test2)"
